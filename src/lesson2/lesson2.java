@@ -1,11 +1,6 @@
 package lesson2;
 
 
-import sun.util.calendar.LocalGregorianCalendar;
-
-import java.time.Year;
-import java.util.Calendar;
-
 public class lesson2 {
     public static void main(String[] args) {
         // входные параметры к первому зд
