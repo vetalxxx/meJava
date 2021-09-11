@@ -16,7 +16,7 @@ public class Wolf extends Animal implements CanSwim {
     }
 
     @Override
-    public void voice() {   // тут тотже вопрос тут есть оверрайд а в коте нету но и там и тут работает
+    public void voice() {
         System.out.println("Волк воет!");
     }
 

@@ -10,10 +10,10 @@ public abstract class Animal {
         this.age = age;
     }
 
-    public String getName() {   // что конкретно делает этот гетер??
-        return name;            // тот же вопрос к сетеру??
+    public String getName() {   // что конкретно делает этот гетер?? получает значение?
+        return name;            // тот же вопрос к сетеру?? меняет наше значение?
     }                           // вроде я понимаю что они нужны для того чтобы потомки моги обращаться к родителю
-                                // Animal, но если можно то поподробнее хотелось бы понять
+
 
     public void setName(String name) {
         this.name = name;

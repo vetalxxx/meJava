@@ -6,6 +6,7 @@ public class Main {
         System.out.println(cat1);
 
         Cat cat2 = new Cat("Морис", "black", 1);
+        System.out.println(cat2);
 
         Cat cat3 = new Cat("Морис", "black", 1);
 
@@ -36,12 +37,13 @@ public class Main {
 
         Pool[] pools = {new Pool(15), new Pool(20), new Pool(35)};
 
-        for (Pool pool : pools) { // как работает фореч я так понимаю это он тут
+        for (Pool pool : pools) { // цикл фореч
             pool.getTimeToOvercomePool(catCompetitor1); //
             pool.getTimeToOvercomePool(wolfCompetitor1); //
             pool.getTimeToOvercomePool(turtleCompetitor);
         }
 
-        Utils.makeAnimalOlder(cat2); // не знаю что за строка такая
+        Utils.makeAnimalOlder(cat2); // не знаю что за строка такая????
+                                    // напишите пож пояснение для этой строки
     }
 }
